@@ -2,9 +2,14 @@
 using namespace std;
 
 int main(){
-int x; 
+double x,y; 
+double sum;
 cout << "Type a number: "; // Type a number and press enter
 cin >> x; // Get user input from the keyboard
-cout << "Your number is: " << x; // Display the input value 
+cout << "Type another number:";
+cin >> y;
+sum = x + y;
+cout << "The sum is: " << sum; // Display the input value 
+
 return 0;
 }
