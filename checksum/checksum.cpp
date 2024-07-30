@@ -60,7 +60,7 @@ string checkSum (string data, int block_size){
         }
 
         string final = "";
-        
+
 
     }
 
